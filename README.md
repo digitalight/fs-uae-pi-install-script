@@ -5,6 +5,10 @@ Script to install FS-UAE on to a fresh install of Raspberry Pi OS.
 ## How to install FS-UAE 3.0.5 on Raspberry Pi
 -------------------------------------------
 
+## To run:
+
+curl -sSL https://git.io/Jt4Du | sudo bash
+
 The script does the following:
 
 ### Debian Backports
