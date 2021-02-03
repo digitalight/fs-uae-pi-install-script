@@ -21,6 +21,8 @@ if [ "" = "$PKG_OK" ]; then
       # Adding FS-UAE Repo
       sudo touch /etc/apt/sources.list.d/FrodeSolheim-stable.list
       echo 'deb https://download.opensuse.org/repositories/home:/FrodeSolheim:/stable/Raspbian_10/ /' | sudo tee -a /etc/apt/sources.list.d/FrodeSolheim-stable.list
+      wget https://download.opensuse.org/repositories/home:FrodeSolheim:stable/Debian_10/Release.key
+      sudo apt-key add - < Release.key
       sudo apt update
       sudo apt install -y -t buster-backports fs-uae fs-uae-launcher
       sudo apt install -y python3-lhafile
