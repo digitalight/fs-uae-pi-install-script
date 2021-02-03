@@ -21,6 +21,10 @@ sudo touch /etc/apt/sources.list.d/FrodeSolheim-stable.list
 
 echo 'deb https://download.opensuse.org/repositories/home:/FrodeSolheim:/stable/Raspbian_10/ /' | sudo tee -a /etc/apt/sources.list.d/FrodeSolheim-stable.list
 
+wget https://download.opensuse.org/repositories/home:FrodeSolheim:stable/Debian_10/Release.key
+
+sudo apt-key add - < Release.key
+
 ### Install FS-UAE
 sudo apt update
 
