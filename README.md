@@ -1,6 +1,9 @@
 # fs-uae-pi-install-script
 Script to install FS-UAE on to a fresh install of Raspberry Pi OS.
 
+### WARNING - The script no longer works as Raspberry Pi repo's have been cleaned out. Will keep this updated if it changes.
+### Recommend using Amiberry for Raspberry Pi setup until then.
+
 
 ## How to install FS-UAE 3.0.5 on Raspberry Pi
 -------------------------------------------
