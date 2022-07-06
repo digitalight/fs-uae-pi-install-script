@@ -1,6 +1,12 @@
 #!/bin/bash
 # BASH SCRIPT TO INSTALL LATEST FS-UAE on Raspberry Pi
 
+echo "FS-UAE Raspberry Pi repo's are currently not updated!"
+echo "For now I recommend Amiberry setup."
+read -p "Press any key to exit..."
+exit
+
+# OLD CODE
 
 REQUIRED_PKG="fs-uae"
 PKG_OK=$(dpkg-query -W --showformat='${Status}\n' $REQUIRED_PKG|grep "install ok installed")
